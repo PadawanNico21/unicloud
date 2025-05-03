@@ -24,7 +24,7 @@ RUN apk add --no-cache \
     pwgen \
     shadow \
     ssmtp \
-    tzdata && \
+    tzdata \
     # Download & Install Unison
     && curl -L https://github.com/bcpierce00/unison/archive/refs/tags/v${UNISON_VERSION}.tar.gz | tar zxv -C /tmp \
     && cd /tmp/unison-${UNISON_VERSION} \
