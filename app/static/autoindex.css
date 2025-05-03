@@ -1,9 +1,5 @@
 * {
-  /*margin-top: revert;
-  margin-bottom: revert;
-  margin-right: revert;
-  margin-left: revert;*/
-  all: revert;
+    all: revert;
 }
 
 #default {
@@ -13,59 +9,6 @@
     border-collapse: collapse;
     width: 100%;
 }
-
-/*#default td, #default th {*/
-/*    border: 1px solid #dddddd;*/
-/*    text-align: left;*/
-/*}*/
-
-/*!* rowtable *!*/
-
-/*#rowtable {*/
-/*    font-family: Helvetica, Arial, sans-serif;*/
-/*    border-collapse: collapse;*/
-/*    width: 100%;*/
-/*}*/
-
-/*#rowtable td, #rowtable th {*/
-/*    border: 1px solid #ddd;*/
-/*    padding: 8px;*/
-/*}*/
-
-/*#rowtable tr:nth-child(even){background-color: #f2f2f2;}*/
-/*#rowtable tr:hover {background-color: #ddd;}*/
-
-/*#rowtable th {*/
-/*    padding-top: 12px;*/
-/*    padding-bottom: 12px;*/
-/*    text-align: left;*/
-/*    background-color: #4CAF50;*/
-/*    color: white;*/
-/*}*/
-
-/*!* rowtable no hover *!*/
-
-/*#rowtablenoh {*/
-/*    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;*/
-/*    border-collapse: collapse;*/
-/*    width: 100%;*/
-/*}*/
-
-/*#rowtablenoh td, #rowtablenoh th {*/
-/*    border: 1px solid #ddd;*/
-/*    padding: 8px;*/
-/*}*/
-
-/*#rowtablenoh tr:nth-child(even){background-color: #f2f2f2;}*/
-
-/*#rowtablenoh th {*/
-/*    padding-top: 12px;*/
-/*    padding-bottom: 12px;*/
-/*    text-align: left;*/
-/*    background-color: grey;*/
-/*    color: white;*/
-/*}*/
-
 
 /* Add a black background color to the top navigation */
 .topnav {
@@ -116,11 +59,11 @@
 
 /* Add a color to the active/current link */
 .topnav a.active {
-    background-color: #4CAF50;
+    background-color: #4caf50;
     color: white;
 }
 
 .topnav_autoindex a.active {
-    background-color: #4CAF50;
+    background-color: #4caf50;
     color: white;
 }

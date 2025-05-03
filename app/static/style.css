@@ -6,49 +6,57 @@
     width: 100%;
 }
 
-#default td, #default th {
+#default td,
+#default th {
     border: 1px solid #dddddd;
     text-align: left;
 }
 
 /* rowtable */
-
 #rowtable {
     font-family: Helvetica, Arial, sans-serif;
     border-collapse: collapse;
     width: 100%;
 }
 
-#rowtable td, #rowtable th {
+#rowtable td,
+#rowtable th {
     border: 1px solid #ddd;
     padding: 8px;
 }
 
-#rowtable tr:nth-child(even){background-color: #f2f2f2;}
-#rowtable tr:hover {background-color: #ddd;}
+#rowtable tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#rowtable tr:hover {
+    background-color: #ddd;
+}
 
 #rowtable th {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
-    background-color: #4CAF50;
+    background-color: #4caf50;
     color: white;
 }
 
 /* rowtable no hover */
-
 #rowtablenoh {
-    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
     border-collapse: collapse;
     width: 100%;
 }
 
-#rowtablenoh td, #rowtablenoh th {
+#rowtablenoh td,
+#rowtablenoh th {
     border: 1px solid #ddd;
     padding: 8px;
 }
 
-#rowtablenoh tr:nth-child(even){background-color: #f2f2f2;}
+#rowtablenoh tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
 
 #rowtablenoh th {
     padding-top: 12px;
@@ -59,26 +67,24 @@
 }
 
 /* hometable no hover */
-
 #hometable {
-    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
     border-collapse: collapse;
     width: 65%;
 }
 
-#hometable td, #hometable th {
+#hometable td,
+#hometable th {
     border: 1px dotted #ddd;
     vertical-align: middle;
     padding: 8px;
-    /* display: inline-block;*/
 }
 
-
-#hometable tr:nth-child(even){background-color: #f2f2f2;}
+#hometable tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
 
 #hometable th {
-    /*padding-top: 12px;
-    padding-bottom: 12px;*/
     text-align: left;
     vertical-align: middle;
     background-color: grey;
@@ -86,7 +92,7 @@
 }
 
 .stats span {
-    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
     display: inline-block;
     border-radius: 15px;
     vertical-align: middle;
@@ -108,6 +114,7 @@
     padding: unset;
     border: unset;
 }
+
 /* Style the links inside the navigation bar */
 .topnav a {
     float: left;
@@ -130,6 +137,7 @@
     font-family: Helvetica, Arial, sans-serif;
     font-size: 17px;
 }
+
 /* Change the color of links on hover */
 .topnav a:hover {
     background-color: #ddd;
@@ -143,12 +151,12 @@
 
 /* Add a color to the active/current link */
 .topnav a.active {
-    background-color: #4CAF50;
+    background-color: #4caf50;
     color: white;
 }
 
 .topnav_autoindex a.active {
-    background-color: #4CAF50;
+    background-color: #4caf50;
     color: white;
 }
 
